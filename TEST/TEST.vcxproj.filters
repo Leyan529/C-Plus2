@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="原始程式檔">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="測試檔">
+      <UniqueIdentifier>{89924ab0-4a37-4c0b-a21f-5e91f7d9f72c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeSort.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructureTest\BinarySearch.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructureTest\List.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructureTest\ListNode.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructureTest\MergeSort.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructureTest\Queue.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructureTest\Stackcomposition.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructureTest\Tree.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptTest\Integer.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="PolymoTest\BasePlusCommissionEmployee.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="PolymoTest\CommissionEmployee.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="PolymoTest\HourlyEmployee.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="PolymoTest\SalariedEmployee.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicMemTest\Array.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicMemTest\Proxy.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassTest\CreateAndDestroy.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassTest\SalesPerson.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DeepClassTest\Count.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DeepClassTest\Time2.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassTest\Time1.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicMemTest\Date2.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DeepClassTest\Date1.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DeepClassTest\Employee1.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="PolymoTest\Employee2.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DeepClassTest\Increment1.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="PolymoTest\Increment2.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptTest\DivideByZeroException.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomAccessTest\ClientData.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="StructTest\DeckOfCard1.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="StructTest\DeckOfCard2.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="OverLoadTest\PhoneNumber.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="BoostTest\Book.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="BoostTest\Author.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeQualifyTest\TestMutable.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Count.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="StructTest\DeckOfCard1.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="StructTest\DeckOfCard2.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomAccessTest\ClientData.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="OverLoadTest\PhoneNumber.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassTest.cpp">
+      <Filter>測試檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStructureTest.cpp">
+      <Filter>測試檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DeepClassTest.cpp">
+      <Filter>測試檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicMemTest.cpp">
+      <Filter>測試檔</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptTest.cpp">
+      <Filter>測試檔</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTest.cpp">
+      <Filter>測試檔</Filter>
+    </ClCompile>
+    <ClCompile Include="InherTest.cpp">
+      <Filter>測試檔</Filter>
+    </ClCompile>
+    <ClCompile Include="OverLoadTest.cpp">
+      <Filter>測試檔</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomAccessTest.cpp">
+      <Filter>測試檔</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplateTest.cpp">
+      <Filter>測試檔</Filter>
+    </ClCompile>
+    <ClCompile Include="StringTest.cpp">
+      <Filter>測試檔</Filter>
+    </ClCompile>
+    <ClCompile Include="StructTest.cpp">
+      <Filter>測試檔</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamTest.cpp">
+      <Filter>測試檔</Filter>
+    </ClCompile>
+    <ClCompile Include="STL_TEST.cpp">
+      <Filter>測試檔</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerTest.cpp">
+      <Filter>測試檔</Filter>
+    </ClCompile>
+    <ClCompile Include="PolymoTest.cpp">
+      <Filter>測試檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicMemTest\Array.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="PolymoTest\BasePlusCommissionEmployee.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStructureTest\BinarySearch.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="PolymoTest\CommissionEmployee.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassTest\CreateAndDestroy.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DeepClassTest\Date1.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicMemTest\Date2.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DeepClassTest\Employee1.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="PolymoTest\Employee2.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="PolymoTest\HourlyEmployee.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DeepClassTest\Increment1.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="PolymoTest\Increment2.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptTest\Integer.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStructureTest\MergeSort.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicMemTest\Proxy.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="PolymoTest\SalariedEmployee.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassTest\SalesPerson.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassTest\Time1.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DeepClassTest\Time2.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="BoostTest.cpp">
+      <Filter>測試檔</Filter>
+    </ClCompile>
+    <ClCompile Include="BoostTest\Book.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="BoostTest\Author.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeQualifyTest.cpp">
+      <Filter>測試檔</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeQualifyTest\TestMutable.cpp">
+      <Filter>標頭檔</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
