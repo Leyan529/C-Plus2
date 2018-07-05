@@ -129,6 +129,15 @@
     <ClInclude Include="TypeQualifyTest\TestMutable.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
+    <ClInclude Include="TypeQualifyTest\Base1.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeQualifyTest\Base2.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeQualifyTest\Derived.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -267,6 +276,9 @@
       <Filter>測試檔</Filter>
     </ClCompile>
     <ClCompile Include="TypeQualifyTest\TestMutable.cpp">
+      <Filter>標頭檔</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeQualifyTest\Derived.cpp">
       <Filter>標頭檔</Filter>
     </ClCompile>
   </ItemGroup>
